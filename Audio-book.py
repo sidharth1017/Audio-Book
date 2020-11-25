@@ -6,7 +6,7 @@ from gtts import gTTS
 import PyPDF2
 
 #Open file Path
-pdf_File = open('adii-converted.pdf', 'rb') 
+pdf_File = open('YourFileName.pdf', 'rb') 
 
 #Create PDF Reader Object
 pdf_Reader = PyPDF2.PdfFileReader(pdf_File)
